@@ -1,0 +1,69 @@
+%
+% AUTHOR: Guido Masella <guido.masella@gmail.com>
+%
+
+% document class
+\documentclass[%
+    a4paper,%
+    12pt%
+]{scrartcl}
+
+% encoding del documento
+\usepackage[utf8]{inputenc}
+
+% english language
+\usepackage[english]{babel}
+
+% math
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{physics}
+
+% hypernation
+\usepackage{hyperref}
+\hypersetup{%
+	colorlinks=true,%
+	linktocpage=true,%
+	breaklinks=true,%
+	pageanchor=true,%
+	bookmarksnumbered,%
+	bookmarksopen=true,%
+	bookmarksopenlevel=1,%
+	hypertexnames=true,%
+	urlcolor=blue,%
+	linkcolor=blue,%
+	citecolor=blue,%
+}
+
+% listings
+\usepackage{listings}
+
+% graphics
+\usepackage{graphicx}
+
+% \hl per l'evidenziazione
+\usepackage{soul}
+
+% Bibliography
+\usepackage[%
+    backend=biber,%
+    style=nature,%
+]{biblatex}
+
+% Titlepage
+\title{Some notes}
+\subtitle{about something}
+\author{Guido Masella}
+\date{\today{}}
+
+% start the document
+\begin{document}
+
+% render the title
+\maketitle
+
+\end{document}
+% vim: set ft=tex ts=4 sts=4 et sw=4 tw=78: %
